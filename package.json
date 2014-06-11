@@ -1,7 +1,7 @@
 {
   "name": "grunt-jenkins-svn-revision",
   "description": "Adds revision property to package.json and bower.json using the Jenkins SVN revision number.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/facultymatt/grunt-jenkins-svn-revision",
   "author": {
     "name": "Matt Miller",
