@@ -1,0 +1,41 @@
+{
+  "name": "grunt-jenkins-svn-revision",
+  "description": "Adds revision property to package.json and bower.json using the Jenkins SVN revision number.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/facultymatt/grunt-jenkins-svn-revision",
+  "author": {
+    "name": "Matt Miller",
+    "email": "\u001b[A\u001b[B"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/facultymatt/grunt-jenkins-svn-revision.git"
+  },
+  "bugs": {
+    "url": "https://github.com/facultymatt/grunt-jenkins-svn-revision/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/facultymatt/grunt-jenkins-svn-revision/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin", "svn", "jenkins", "revision"
+  ]
+}
