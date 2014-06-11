@@ -25,9 +25,9 @@ module.exports = function(grunt) {
     }
 
     opts.files.forEach(function(file, idx) {
-      var content = grunt.file.read(file);
+      var content = grunt.file.readJSON(file);
       content.revision = opts.currentRevision;
-      grunt.file.write(file, content);
+      grunt.file.write(file, JSON.stringify(content, null, 2));
       grunt.log.ok('currentRevision bumped to ' + opts.currentRevision);
     });
 
